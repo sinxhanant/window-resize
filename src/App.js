@@ -2,6 +2,7 @@ import React from 'react'
 import ResizableA from './components/BoxA'
 import ResizableB from './components/BoxB'
 import ResizableC from './components/BoxC'
+import './App.css'
 
 export default function App() {
   return (
@@ -24,7 +25,7 @@ export default function App() {
          flexDirection: 'column',
          alignItems: 'center',
          justifyContent: 'center',
-         height: '80vh', width: `80vh`}}>
+         height: 800, width: 700}}>
 <div className="Top" style={{
    display: 'flex',
    justifyContent: 'center',  alignItems: 'center', width: 600,  backgroundColor: 'green', flexDirection: 'row'}}><ResizableA /><ResizableB /></div>
